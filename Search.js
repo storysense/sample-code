@@ -29,8 +29,8 @@ function SuperSearch() {
   const { currentUser } = useUser();
   const { currentProjectId } = useStorySense();
   const navigate = useNavigate();
-  const algoliaSearchOnlyApiKey = '593e21023e9372f50e62c74b4e4bc71b';
-  const algoliaAppId = 'DA6B6CU679';
+  const algoliaSearchOnlyApiKey = 'ABCDEFGHIJKLMNOP';
+  const algoliaAppId = '12345';
 
   const [searchValue, setSearchValue] = useState('');
   const [searchResults, setSearchResults] = useState({
